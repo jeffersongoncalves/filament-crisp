@@ -13,9 +13,9 @@ description: Build and work with the Filament Crisp plugin — settings page and
 
 ## Package Overview
 
-- **Package**: `jeffersongoncalves/filament-crisp` (branch `2.x`)
+- **Package**: `jeffersongoncalves/filament-crisp` (branch `3.x`)
 - **Namespace**: `JeffersonGoncalves\Filament\Crisp`
-- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^2.0`, `jeffersongoncalves/laravel-crisp:^1.0`
+- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^3.0`, `jeffersongoncalves/laravel-crisp:^1.0`
 
 ## Setup
 
