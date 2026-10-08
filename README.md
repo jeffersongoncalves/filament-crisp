@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Crisp](https://raw.githubusercontent.com/jeffersongoncalves/filament-crisp/1.x/art/jeffersongoncalves-filament-crisp.png)
+![Filament Crisp](https://raw.githubusercontent.com/jeffersongoncalves/filament-crisp/2.x/art/jeffersongoncalves-filament-crisp.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-crisp.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-crisp)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-crisp/fix-php-code-style-issues.yml?branch=1.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-crisp/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A1.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-crisp/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-crisp/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-crisp.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-crisp)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-crisp.svg?style=flat-square)](LICENSE.md)
 
@@ -28,7 +28,7 @@ Built on top of [jeffersongoncalves/laravel-crisp](https://github.com/jeffersong
 ## Installation
 
 ```bash
-composer require jeffersongoncalves/filament-crisp:"^1.0"
+composer require jeffersongoncalves/filament-crisp:"^2.0"
 ```
 
 Publish the settings migrations and run them:
@@ -77,7 +77,7 @@ To render the script outside Filament, add `@include('crisp::script')` to your o
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 3.x
+- Filament 4.x
 
 ## Changelog
 

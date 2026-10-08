@@ -6,7 +6,7 @@ Filament plugin for Crisp with a settings page powered by Spatie Laravel Setting
 
 @verbatim
 <code-snippet name="Install the plugin" lang="bash">
-composer require jeffersongoncalves/filament-crisp:"^1.0"
+composer require jeffersongoncalves/filament-crisp:"^2.0"
 php artisan vendor:publish --tag=crisp-settings-migrations
 php artisan migrate
 </code-snippet>
