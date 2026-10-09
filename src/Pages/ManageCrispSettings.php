@@ -8,6 +8,7 @@ use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
 use JeffersonGoncalves\Crisp\Settings\CrispSettings;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 
 class ManageCrispSettings extends SettingsPage
 {
@@ -22,7 +23,7 @@ class ManageCrispSettings extends SettingsPage
 
     public static function getNavigationGroup(): string|\UnitEnum|null
     {
-        return __('filament-crisp::pages.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-crisp') ?? __('filament-crisp::pages.navigation_group');
     }
 
     public function getTitle(): string
